@@ -1,3 +1,45 @@
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.header-container2 {
+  position: absolute;
+}
+
+.menu-container ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: 0;
+}
+
+.logo {
+  position: absolute;
+  max-width: 10%;
+  height: auto;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+.header-a:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+.header-a {
+  transition: background-color 0.3s, color 0,3s;
+  font-size: 2vw;
+  padding: 30px;
+  color: black;
+  text-decoration: none;
+}
+
 .right-navbar {
     display: flex;
     position: relative;
@@ -7,71 +49,5 @@
     gap: 50px;
     z-index: 2;
   }
-  
-  .logo {
-    position: absolute;
-    max-width: 10%;
-    height: auto;
-    top: 20px;
-    left: 20px;
-    z-index: 2;
-  }
-  
-  /*.header-ul {
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 2%;
-    position: absolute; /* Plasser listen relativt til header */
-    /*height: auto;
-    max-width: 100%;
-    transform: translateX(-50%);
-    font-size: medium;
-    top: 2%; /* Juster toppmargen etter behov */
-    /*left: 50%; /* Juster venstremargen etter behov */
-    /*z-index: 2;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7) !important; /* Endre "color" til rgba-verdien */
-    /*white-space: nowrap; /* Forhindre at teksten bryter til neste linje */
-   /* text-overflow: inherit; /* Vis "..." for tekst som ikke passer */
-    /*border-bottom: 2px solid #000;
-  }
-  
-  .header-a {
-    padding: 30px;
-    color: black;
-    text-decoration: none;
-    font-size: 50px;
-    
-    
-  }
 
-  .header-ul {
-    text-align: center; /* Senter tekst */
-  /*}
-
-
-  .header-ul > li:hover {
-    transition: 0.3s ease;
-    transform: scale(1.1);
-    font-weight: bolder;
-    cursor: pointer;
-  }
-
-  .header-ul > li {
-    transition: 0.3s ease;
-   }*/
-
-.test-header {
-  display: flex;
-}
-
-.test-header ul {
-  display: flex;
-  position: absolute;
-
-}
   
