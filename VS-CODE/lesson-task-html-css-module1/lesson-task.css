@@ -1,0 +1,46 @@
+.logoguitarkings{
+  font-size: 2em;
+  text-decoration: none;
+}
+
+nav > ul {
+  background-color: #202020;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  color: white;
+}
+
+header{
+  background-color: #202020;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-family: arial, helvetica, sans-serif,;
+}
+
+header a {
+  color: #fff;
+}
+
+.cta-view {
+  background-color: #b0000b;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.cta.on-sale {
+  background-color: green;
+  color: white;
+  text-decoration: none;
+}
+
+main li{
+  background-color: grey;
+}
+
+.Reviews {
+  background-color: lightgray;
+}

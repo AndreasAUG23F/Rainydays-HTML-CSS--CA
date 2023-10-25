@@ -1,0 +1,353 @@
+@import url(/header.css);
+@import url(/footer.css);
+
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+/*.header-ul {
+  position: relative; 
+  text-align: center; 
+}*/
+
+.headerpic {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  position: relative; 
+  z-index: 1; 
+}
+
+/*.right-navbar {
+  display: flex;
+  position: relative;
+  top: 35px;
+  right: 50px;
+  align-items: center;
+  gap: 50px;
+  z-index: 2;
+}
+
+.logo {
+  position: absolute;
+  max-width: 10%;
+  height: auto;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+.header-ul {
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2%;
+  position: absolute; 
+  height: auto;
+  max-width: 100%;
+  transform: translateX(-50%);
+  font-size: medium;
+  top: 2%; 
+  left: 50%; 
+  z-index: 2;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7) !important; 
+  white-space: nowrap; 
+  text-overflow: inherit; 
+}
+
+a {
+  padding: 30px;
+  color: black;
+  text-decoration: none;*/
+
+
+.alt-slogan {
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 4vw; /* Bruk viewport bredde som enhet for tekststørrelse */
+  text-shadow: black 1px 2px 1px rgba(0, 0, 0, 0.7) !important;
+  top: 15%; /* Juster toppmargen etter behov */
+  margin-bottom: 20%;
+  left: 90%; /* Plasser teksten horisontalt i midten */
+  transform: translateX(-90%); /* Sentrer teksten nøyaktig i midten */
+  position: absolute;
+  white-space: nowrap; /* Forhindre at teksten bryter til neste linje */
+  overflow: hidden; /* Skjul eventuell tekst som overskrider forelderens bredde */
+  z-index: 2;
+}
+
+.custom-button-container {
+  display: flex;
+  margin-top: -40%;
+  margin-left: 44%;
+  justify-content: center; /* Sentrer knappene horisontalt */
+}
+
+.custom-button1,
+.custom-button2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2vw;
+  color: black;
+  text-decoration: none;
+  background-color: rgba(52, 152, 219, 0);
+  border: 0.3vw solid #000;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 4%; /* Legg til en margen mellom knappene */
+  padding: 1vw 1vw 1vw 3.5vw;
+  width: 20%;
+  height: auto;
+  transition: background-color 0.3s, color 0.3s;
+  z-index: 3;
+}
+
+.custom-button1:hover,
+.custom-button2:hover {
+  background-color: #000000 !important;
+  color: #fff !important;
+}
+
+.explore-container {
+  display: flex; /*denne er viktig å bruke for å justere mellomrom mellom objektene i classen*/
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  margin: 0%;
+  padding: 0%;
+  margin-right: 0%;
+  gap: 0%;
+}
+.explore-container > li {
+  flex: 0 0 32.3%;
+  list-style: none;
+  position: relative;
+  gap: 0%;
+  padding: 0%;
+  margin: 0%;
+  margin-left: 0%;
+}
+
+.explore-container a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 10%;
+  left: 0%;
+}
+
+.explore-pic {
+  display: block;
+  position: relative;
+  height: auto;
+  object-fit: cover;
+  width: 110%;
+  margin-top: 97%;
+  margin-left: 0%;
+  margin-right: 0%;
+  gap: 0%;
+  padding-right: 0%;
+  z-index: 1;
+}
+
+.explore.cta {
+  padding: 0%;
+  background-color: rgba(52, 152, 219, 0);
+  color: #fff;
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font: bolder;
+  height: auto;
+  font-size: 3vw;
+  top: 45%;
+  left: -20%; /* Plasser teksten horisontalt i midten */
+  transform: translateX(50%);
+  z-index: 2;
+  
+}
+
+.left {
+  background-color: blue;
+  flex: 0 0 50%;
+  width: 100%;
+}
+
+.left > img {
+  width: 100%;
+}
+
+.right {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-content > h2 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+  text-shadow: black 1px 2px 1px rgba(0, 0, 0, 0.7);
+  padding: 5%;
+}
+
+.right-content > p {
+  font-size: 2vw;
+  padding-left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-content > button {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  background-color: #fff;
+  font-size: 2vw;
+  font-weight: bold;
+  border-top: 0%;
+  border-radius: 25px;
+  border: 0.4vw solid #000;
+  padding: 10px 20px;
+  margin-left: 5%;
+  margin-top: 5%;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.right-content > button:hover {
+  background-color: #000000 !important;
+  color: #fff !important;
+}
+
+
+
+.premium-banner {
+  display: flex;
+}
+
+.fashion-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0%;
+  padding: 0%;
+  
+}
+
+.fashion-text{
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2%;
+  max-width: 50%;
+  width: 40%;
+  margin: 0%;
+  padding: 5%;
+  flex-direction: column;
+
+}
+
+.fashion-header {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2vw;
+  text-shadow: black 1px 2px 1px rgba(0, 0, 0, 0.7);
+  padding: 3%;
+}
+
+.fashion-picture{
+  size: 100%;
+  width: 50%;
+  flex: 1;
+  text-align: right;
+}
+
+.fashion-picture > img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.test-container{
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+.fashion-button {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  background-color: #fff;
+  font-size: 2vw;
+  font-weight: bold;
+  border-top: 0%;
+  border-radius: 25px;
+  border: 0.4vw solid #000;
+  padding: 10px 20px;
+  margin-left: 5%;
+  margin-top: 5%;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.fashion-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/*.footer-container {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: auto;
+
+}
+
+.footer-ul {
+  list-style: none;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  font-size: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5%;
+  row-gap: 20px;
+  width: auto;
+}
+
+.footer-link {
+  color: #fff;
+  width: auto;
+
+}
+
+.footer {
+  margin-top: -5%;
+  position: relative;
+  background-color: #0A3641;
+  padding: 0%;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.footer-img {
+  margin: 0%;
+  padding: 5%;
+  width: 80%;
+  max-width: 30%;
+  
+}
+
+.footer-col {
+  margin: 10% 0%;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  margin-left: 0%;
+  padding:  2%;
+  width: auto;
+}*/

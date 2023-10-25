@@ -1,0 +1,146 @@
+@import url(/shop-clean.css);
+@import url(/header.css);
+@import url(/footer.css);
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+}
+
+.top-image { 
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 0%;
+    size: 150%;
+    height: 150%;
+    width: 100%;
+}
+
+.top-image img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+.text-container-main {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10%;
+    gap: 50%;
+    justify-content: space-between;
+    white-space: nowrap;
+    
+}
+
+h2 {
+    font-size: 4vw;
+    color: #fff;
+    width: auto;
+}
+
+.welcome-container {
+    position: relative;
+    display: block;
+    justify-content: center;
+}
+
+.welcome-top {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 0%;
+    margin-left: 4%;
+
+}
+
+.welcome-bottom {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-top: -1%;
+    margin-left: 4%;
+}
+
+h3 {
+    font-size: 3vw;
+}
+
+.welcome-bottom p {
+    font-size: 2vw;
+    letter-spacing: 2px;
+}
+
+.image-row-container {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-row-container li {
+    list-style: none;
+}
+
+.image-row-container li img {
+    margin-right: 5px;
+    list-style: none;
+    height: auto;
+    width: 100%;
+}
+
+
+
+ /*.top-text1 {
+    display: flex;
+    justify-content: ;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    height: auto;
+    margin-top: 10%;
+    font-size: 2vw;
+    row-gap: 10%;
+    margin-left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: #000 10 10 10 10;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-height: 600px;
+
+}
+
+.top-text2 {
+    /*justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    height: auto;
+    margin-top: 10%;
+    font-size: 4vw;
+    row-gap: 10%;
+    margin-left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: #000 10 10 10 10;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    max-height: 600px;
+}
+

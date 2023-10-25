@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "CA",
+			"path": "../../CA"
+		},
+		{
+			"name": "images-CA",
+			"path": "images-CA"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CA"
+	}
+}
