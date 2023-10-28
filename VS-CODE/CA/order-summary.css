@@ -1,0 +1,44 @@
+
+
+h2, .subtotal-left, .subtotal-right, .delivery-left, .delivery-right, .quantity, .size, .Subtotal-bottom {
+    color: rgba(161, 161, 161, 1);
+}
+
+h2 {
+    font-size: 3vw;
+}
+.order-summary-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    float: right;
+    padding-top: 100px;
+    
+}
+
+.subtotal-left, .subtotal-right, .delivery-left, .delivery-right, .total-left, .total-right, .arrival, .summary-image, .summary-bottom-right-top, .quantity, .size, .Subtotal-bottom {
+    display: flex;
+    justify-content: space-between; /* Plasserer elementene til høyre og venstre */
+    align-items: center; /* Sentrerer elementene vertikalt */
+    /*margin: 5px 0; /* Legger til et mellomrom over og under hvert element */
+}
+
+.arrival p {
+font-weight: bold;
+}
+
+.subtotal-left p {
+    font-weight: bold;
+    color: rgba(161, 161, 161, 1);
+}
+
+.summary-image img {
+    width: 230px;
+    height: 270px;
+}
+
+.summary-bottom-right-top {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}

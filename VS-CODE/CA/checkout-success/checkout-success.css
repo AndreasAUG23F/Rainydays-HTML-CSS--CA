@@ -1,0 +1,156 @@
+@import url(/header.css);
+@import url(/footer.css);
+
+/*flex-wrap gir deg kontroll over hvordan elementene dine skal tilpasse seg
+ beholderen når det er for lite plass. 
+ Med flex-wrap: nowrap vil de ikke gå til neste linje, 
+ mens med flex-wrap: wrap og flex-wrap: wrap-reverse, 
+ vil de danne flere rader eller kolonner avhengig av innholdet og
+  tilgjengelig plass.*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+h2, h1 {
+    font-size: 3vw;
+    color: gray;
+
+}
+
+.check-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.check-icon svg {
+    display: flex;
+    position: relative;
+    width: 700px;
+    height: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    fill: #77bb41;
+
+}
+
+.checkout-container {
+    display: block;
+    block-size: auto;
+    margin-left: 1%;
+
+}
+
+.checkout-header {
+    display: block;
+    left: 10%;
+}
+
+.checkout-header h2 {
+    font-size: 3vw;
+    color: gray;
+}
+
+.order-info p {
+    font-size: 2vw;
+    
+}
+
+.order-message {
+    font-size: 1.5vw;
+}
+
+.order-summary-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    float: right;
+    position: relative;
+    margin-top: -16%;
+    margin-right: 5%;
+
+}
+
+.subtotal-left, .subtotal-right, .delivery-left, .delivery-right, .total-left, .total-right, .arrival, .summary-image, .summary-bottom-right-top, .quantity, .size, .Subtotal-bottom {
+    display: flex;
+    justify-content: space-between; /* Plasserer elementene til høyre og venstre */
+    align-items: center; /* Sentrerer elementene vertikalt */
+    /*margin: 5px 0; /* Legger til et mellomrom over og under hvert element */
+}
+
+.arrival p {
+font-weight: bold;
+}
+
+.subtotal-left p {
+    font-weight: bold;
+    color: rgba(161, 161, 161, 1);
+}
+
+.summary-image img {
+    width: 100%;
+    height: auto;
+}
+
+.summary-bottom-right-top {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.order-info-container {
+    display: block;
+    block-size: auto;
+}
+
+.order-information {
+    margin-left: 1%;
+}
+
+.order-date p, .method p, .adress p, .credit-card p{
+    color:  rgba(161, 161, 161, 1);
+    margin-left: 1%;
+    margin-top: -1%;
+}
+
+.shipping-method p, .shipping-adress p, .payment-method p{
+    margin-left: 1%;
+    font-weight: bold;
+}
+
+.Inquiry-container, .forgot-container {
+    display: block;
+    block-size: auto;
+    margin-left: 1%;
+}
+
+.questions-order h1, .forgot-something h1 {
+    margin-left: 1%%;
+}
+
+.contact-us p {
+    margin-left: 1%;
+}
+/*.order-summary-container {
+    display: block;
+    float: right;
+    margin-right: 10%;
+    position: relative;
+}
+
+.subtotal-left p {
+    font-weight: bold;
+    color: rgba(161, 161, 161, 1);
+}
+
+.subtotal-right p {
+    display: block;
+    position: relative;
+    justify-content: right;
+    left: 30%;
+}

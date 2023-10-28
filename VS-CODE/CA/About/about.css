@@ -72,11 +72,13 @@ h2 {
 
 h3 {
     font-size: 3vw;
+    text-shadow: 2px 2px 5px #000
 }
 
 .welcome-bottom p {
     font-size: 2vw;
     letter-spacing: 2px;
+    text-shadow: 1px 1px 3px #000
 }
 
 .image-row-container {
@@ -102,6 +104,184 @@ section {
     height: auto;
     width: 100%;
 }
+
+.text-section1{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 0%;
+    margin-left: 4%;
+
+}
+
+.flavour-text {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-top: -1%;
+    margin-left: 2%;
+    
+}
+
+p {
+    font-size: 2vw;
+    border-bottom: #0000 solid 3px;
+}
+
+
+
+.quote-class {
+    border-bottom: #0000 solid 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.credo-header {
+    border-bottom: #0000 solid 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.credo-header > h1 {
+    border-top: #0000 solid 5px;
+    font-size: 4vw;
+    text-shadow: 2px 2px 5px #000
+}
+
+.credo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.credo-text p {
+    border: #000 solid 4px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+    height: 600px;
+}
+
+
+.meet-header {
+    display: flex;
+    justify-content: center;
+    left: 50px;
+}
+
+.staff-header  {
+    position: relative;
+    border-top: rgba(204, 204, 204, 1) solid 3px ;
+    font-size: 4vw;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.staff-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.staff-image {
+    display: grid;
+    justify-content: left;
+    position: relative;
+    left: -16%;
+    top: 15%;
+}
+
+.staff-image img {
+    padding-bottom: 15px;
+    width: 200px;
+}
+
+.staff-name {
+    position: absolute;
+    top: -10%;
+    left: 20%;
+}
+
+.staff-name h2 {
+    color: #000;
+    font-size: 4vw;
+    text-shadow: #000 solid 1px 1px 1px;
+}
+
+.staff-title {
+    position: absolute;
+    top: 10%;
+    left: 24%;
+}
+
+.staff-title h3 {
+    font-size: 1.6vw;
+    color: lightslategray;
+    text-shadow: none;
+}
+
+.staff-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: -15%;
+    padding-bottom: 20px;
+}
+ .staff-info p {
+    font-size: 1.5vw;
+    padding-top: 100px;
+
+ }
+
+ .continue-shopping {
+    display: inline-block; /* Endre fra "block" til "inline-block" for å unngå blokkerende bakgrunn */
+    text-align: center; /* Sentrer innhold horisontalt */
+    background: none; /* Nullstill bakgrunnen */
+    padding-bottom: 25px; /* Nullstill paddingen */
+    border: none; /* Nullstill kanten */
+}
+
+.continue-shopping a {
+    display: inline-block; /* La lenken ha inline-blokkeringsvisning */
+    color: #fff;
+    text-decoration: none;
+    background-color: blue;
+    border: #000 solid 3px; /* Endre fra "#000000" til "#000" for fargen */
+    width: 300px;
+    font-size: 2vw;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/*.credo-text p {
+    font-size: 1.5vw;
+    text-shadow: #0000 0 0 10 0;
+    display: block;
+    position: absolute;
+    justify-content: center;
+    border: 3px solid #000;
+    padding: 20px;
+    max-width: 700px;
+    max-height: 900px;
+    line-height: 1.5; /* Øk linjeavstanden ved å legge til denne egenskapen */
+  
+  
+
+      
+
+
+
 
 
 

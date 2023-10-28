@@ -1,2 +1,30 @@
 @import url(/header.css);
 @import url(/footer.css);
+@import url(/order-summary.css);
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+.order-container {
+    display: block;
+    margin-left: 3%;
+}
+
+
+.delivery-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
