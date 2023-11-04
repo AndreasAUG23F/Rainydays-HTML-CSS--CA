@@ -87,12 +87,6 @@ h3 {
     justify-content: center;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
 
 .image-row-container li {
     list-style: none;
@@ -158,12 +152,9 @@ p {
 }
 
 .credo-text p {
-    border: #000 solid 4px;
-    border-radius: 25px;
     padding-left: 10px;
     padding-right: 10px;
     line-height: 50px;
-    height: 600px;
 }
 
 
@@ -258,69 +249,62 @@ p {
 }
 
 
+@media screen and (max-width:982px){
+    .staff-image img {
+        padding-bottom: 15px;
+        width: 150px;
+    }
 
+    .staff-info p {
+        font-size: 1.0vw;
+        padding-top: 70px;
+    
+     }
 
+     .staff-info {
+        margin-left: -15%;
+        padding-bottom: 20px;
+    }
 
+    .staff-name h2 {
+        font-size: 3vw;
+        padding-left: 100px;
+    }
 
-
-
-/*.credo-text p {
-    font-size: 1.5vw;
-    text-shadow: #0000 0 0 10 0;
-    display: block;
-    position: absolute;
-    justify-content: center;
-    border: 3px solid #000;
-    padding: 20px;
-    max-width: 700px;
-    max-height: 900px;
-    line-height: 1.5; /* Øk linjeavstanden ved å legge til denne egenskapen */
+    .staff-title {
+        padding-left: 70px;
+    }
   
+  }
+
+
+  @media screen and (max-width:554px){
+    .staff-image img {
+        padding-bottom: 15px;
+        width: 100px;
+    }
+
+    .staff-info p {
+        font-size: 1.0vw;
+        padding-top: 40px;
+    
+     }
+
+     .staff-info {
+        margin-left: -15%;
+        padding-bottom: 20px;
+    }
+
+    .staff-name h2 {
+        font-size: 3vw;
+        padding-left: 70px;
+    }
+
+    .staff-title {
+        padding-left: 50px;
+    }
+    .credo-text p {
+        line-height: 20px;
+    }
   
-
-      
-
-
-
-
-
-
- /*.top-text1 {
-    display: flex;
-    justify-content: ;
-    justify-content: center;
-    flex-direction: column;
-    position: absolute;
-    height: auto;
-    margin-top: 10%;
-    font-size: 2vw;
-    row-gap: 10%;
-    margin-left: 50%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-    text-shadow: #000 10 10 10 10;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    max-height: 600px;
-
-}
-
-.top-text2 {
-    /*justify-content: center;
-    flex-direction: column;
-    position: absolute;
-    height: auto;
-    margin-top: 10%;
-    font-size: 4vw;
-    row-gap: 10%;
-    margin-left: 50%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-    text-shadow: #000 10 10 10 10;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 100px;
-    max-height: 600px;
-}
-
+  }

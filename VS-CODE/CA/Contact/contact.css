@@ -42,14 +42,17 @@ h2 {
 }
 
 .contact-info {
-    display: block;
-    float: right;
-    margin-right: 10%;
-    margin-top: -19%;
+    text-align: top;
+    margin-left: 70%;
+    margin-bottom: 70%;
+
 }
 
 .contact-info img {
-    width: 450px;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0;
 }
 
 .submit {
@@ -68,4 +71,23 @@ h2 {
     width: 80px;
     border-radius: 15px;
     
+}
+
+@media screen and (max-width:1830px){
+    .contact-info  {
+        text-align: top;
+        margin-left: 40%;
+        margin-top: 20%;
+
+    }
+
+    .submit {
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+        margin-right: 35%;
+    }
+
+
+
 }

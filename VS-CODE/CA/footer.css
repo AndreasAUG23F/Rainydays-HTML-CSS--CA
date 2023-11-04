@@ -1,6 +1,8 @@
 footer {
   background-color: #0A3641;
   color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-content {
@@ -33,112 +35,45 @@ footer {
   color: #fff;
 }
 
-.footer-icons svg {
-  display: flex;
-  flex-direction: column;
-  width: 500px;
-  height: 50px;
-}
-
-
-/*footer {
-  background-color: #0A3641;
-  color: #fff;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.footer-logo img {
-  display: flex;
-  justify-content: left;
-  float: left;
-  top: 500px; 
-  left: 0;
-}
-
-.links ul {
+.footer-icons {
+  display: flex; /* Endre til flex-container */
+  justify-content: center; /* Sentrer ikonene horisontalt */
+  align-items: center; /* Sentrer ikonene vertikalt */
   list-style: none;
   padding: 0;
+  margin: 0; /* Fjern margin for å unngå uønsket mellomrom */
 }
 
-.links li {
-  margin-bottom: 10px;
+.footer-icons svg {
+  width: 30px; /* Angi ønsket bredde for ikonene */
+  height: 30px; /* Angi ønsket høyde for ikonene */
+  margin: 0 10px; /* Legg til mellomrom mellom ikonene */
 }
 
-.links a {
-  text-decoration: none;
-  color: #fff;
-}
 
-.social-icons {
-  /* Legg til stilregler for dine sosiale medier ikoner her */
-
-
-/*.footer-content {
-    display: flex;
-    align-items: center;
-    max-width: 100%;
-    margin: auto;
-  
-  }
-  
-  .links {
-    list-style: none;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 2;
-    display: flex;
-    justify-content: right;
-    font-size: 3vw;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 5%;
-    row-gap: 20px;
-    width: auto;
-  }
-  
-  .footer-link {
-    color: #fff;
-    width: auto;
-  
-  }
-  
-  .footer-content {
-    margin-top: -5%;
-    position: relative;
-    background-color: #0A3641;
-    padding: 0%;
-    box-sizing: border-box;
-    height: auto;
-  }
-  
-  .footer-img {
-    margin: 0%;
-    padding: 5%;
-    margin-left: 0%;
-    width: 80%;
-    max-width: 30%;
-    
-  }
-  
-  .footer-col {
-    margin: 10% 0%;
-    border-right: 1px solid #fff;
-    border-left: 1px solid #fff;
-    margin-left: 0%;
-    padding: 1%;
-    width: auto;
-  }
-
+@media screen and (max-width: 950px) {
   .footer-icons {
-    font-size: 60px;
-    display: flex;
-    justify-content: right;
-    margin-left: 15%;
-    row-gap: 10%;
-    flex-direction: column;
+    flex-direction: row; 
+    justify-content: space-between; 
   }
+
+  .footer-icons svg {
+    width: 30px; /* Angi ønsket bredde for ikonene */
+    height: 30px; /* Angi ønsket høyde for ikonene */
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .footer-logo img {
+    width: 100px
+  }
+  .footer-icons {
+    flex-direction: row; 
+    justify-content: space-between; 
+  }
+
+  .footer-icons svg {
+    width: 30px; /* Angi ønsket bredde for ikonene */
+    height: 30px; /* Angi ønsket høyde for ikonene */
+  }
+}

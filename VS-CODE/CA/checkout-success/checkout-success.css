@@ -24,6 +24,7 @@ h2, h1 {
     flex-direction: row;
     width: 100%;
     height: auto;
+    flex-wrap: wrap;
 }
 
 .info-section {
@@ -35,7 +36,7 @@ h2, h1 {
     max-width: 50%;
     height: auto;
 }
-/*.check-container {
+.check-container {
     display: flex;
     justify-content: center;
     position: relative;
@@ -81,26 +82,22 @@ h2, h1 {
 .order-summary-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    float: right;
-    position: relative;
-    margin-top: -16%;
+    white-space: nowrap;
     margin-right: 5%;
 
 }
 
 .order-summary-container.mobile-view {
     display: block;
-    margin-top: 0;
     margin-right: 0;
 }
 
 .subtotal-left, .subtotal-right, .delivery-left, .delivery-right, .total-left, .total-right, .arrival, .summary-image, .summary-bottom-right-top, .quantity, .size, .Subtotal-bottom {
     display: flex;
-    justify-content: space-between; /* Plasserer elementene til høyre og venstre */
-    /*align-items: center; /* Sentrerer elementene vertikalt */
-    /*margin: 5px 0; /* Legger til et mellomrom over og under hvert element */
-/*}
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 5px 0;
+}
 
 .arrival p {
 font-weight: bold;
@@ -184,34 +181,11 @@ font-weight: bold;
     left: 30%;
 }*/
 
-@media screen and (max-width:950px){
-    .order-summary-container {
-        top: 750px;
-        order: 2;
+@media screen and (max-width:850px){
+    .blackbox {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .checkout-success-bottom-image img {
-        width: 100%;
-        height: auto;
-        margin-top: 100%;
-    }
-}
-
-@media screen and (max-width:755px){
-    .order-summary-container {
-        margin-right: 50%;
-        top: 1200px;
-        order: 2;
-    }
-
-    .checkout-success-bottom-image img {
-        width: 100%;
-        height: auto;
-        margin-top: 200%;
-    }
-
-    .order-info-container {
-        margin-top: -50px;
-        z-index: 2;
-    }
 }
