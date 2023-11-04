@@ -21,7 +21,7 @@
     padding-top: 5%;
 }
 
-.form-name, .form-adress, .form-email, .form-phone, .form-cardnumber, .form-month, .form-year, .form-CVV, .form-cardholder{
+.form-name, .form-adress, .form-email, .form-phone, .form-cardnumber, .form-month, .form-year, .form-CVV, .form-cardholder, .form-subject, .form-request{
     display: flex;
     flex-direction: column;
 

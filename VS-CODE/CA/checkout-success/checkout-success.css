@@ -2,16 +2,11 @@
 @import url(/footer.css);
 @import url(/forms-test.html/forms.css);
 
-/*flex-wrap gir deg kontroll over hvordan elementene dine skal tilpasse seg
- beholderen når det er for lite plass. 
- Med flex-wrap: nowrap vil de ikke gå til neste linje, 
- mens med flex-wrap: wrap og flex-wrap: wrap-reverse, 
- vil de danne flere rader eller kolonner avhengig av innholdet og
-  tilgjengelig plass.*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 ul, ol {
     list-style: none;
@@ -23,7 +18,24 @@ h2, h1 {
 
 }
 
-.check-container {
+.blackbox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.info-section {
+    max-width: 50%;
+    height: auto;
+}
+
+.summary-section {
+    max-width: 50%;
+    height: auto;
+}
+/*.check-container {
     display: flex;
     justify-content: center;
     position: relative;
@@ -77,12 +89,18 @@ h2, h1 {
 
 }
 
+.order-summary-container.mobile-view {
+    display: block;
+    margin-top: 0;
+    margin-right: 0;
+}
+
 .subtotal-left, .subtotal-right, .delivery-left, .delivery-right, .total-left, .total-right, .arrival, .summary-image, .summary-bottom-right-top, .quantity, .size, .Subtotal-bottom {
     display: flex;
     justify-content: space-between; /* Plasserer elementene til høyre og venstre */
-    align-items: center; /* Sentrerer elementene vertikalt */
+    /*align-items: center; /* Sentrerer elementene vertikalt */
     /*margin: 5px 0; /* Legger til et mellomrom over og under hvert element */
-}
+/*}
 
 .arrival p {
 font-weight: bold;
@@ -131,7 +149,7 @@ font-weight: bold;
 }
 
 .questions-order h1, .forgot-something h1 {
-    margin-left: 1%%;
+    margin-left: 1%;
 }
 
 .contact-us p {
@@ -141,6 +159,11 @@ font-weight: bold;
 .checkout-success-bottom-image img {
     width: 100%;
     height: auto;
+}
+
+.forgot.cta button {
+    display: inline-block;
+    background-color: #77bb41;
 }
 /*.order-summary-container {
     display: block;
@@ -159,4 +182,36 @@ font-weight: bold;
     position: relative;
     justify-content: right;
     left: 30%;
+}*/
+
+@media screen and (max-width:950px){
+    .order-summary-container {
+        top: 750px;
+        order: 2;
+    }
+
+    .checkout-success-bottom-image img {
+        width: 100%;
+        height: auto;
+        margin-top: 100%;
+    }
+}
+
+@media screen and (max-width:755px){
+    .order-summary-container {
+        margin-right: 50%;
+        top: 1200px;
+        order: 2;
+    }
+
+    .checkout-success-bottom-image img {
+        width: 100%;
+        height: auto;
+        margin-top: 200%;
+    }
+
+    .order-info-container {
+        margin-top: -50px;
+        z-index: 2;
+    }
 }

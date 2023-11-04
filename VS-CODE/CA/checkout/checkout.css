@@ -2,7 +2,6 @@
 @import url(/footer.css);
 @import url(/order-summary.css);
 @import url(/forms-test.html/forms.css);
-
 main {
     display: flex;
     justify-content: space-around;
@@ -54,3 +53,103 @@ ul li {
     height: 20px;
     width: 50px;
   }
+
+.complete-order {
+    display: block;
+    justify-content: center;
+    position: absolute;
+    top: 1000px;
+    left: 25%;
+    padding-bottom: 20%;
+
+}
+
+.complete-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Fjerner understrekning på lenken */
+    border: 3px black solid;
+    border-radius: 25px;
+    font-size: 16px;
+    height: 20px;
+    transition: transform 0.2s, background-color 0.2s, color 0.2s;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40%;
+}
+
+@media screen and (max-width:850px) {
+    .flex-box {
+        margin-top: 100%;
+        justify-content: center;
+        margin-right: 15%;
+    }
+
+    .complete-order {
+        top: 1050px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .flex-box {
+        margin-top: 100%;
+        justify-content: center;
+        margin-right: 15%;
+    }
+
+    .complete-order {
+        top: 1000px;
+        padding-bottom: 50%;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    .flex-box {
+        margin-top: 120%;
+        justify-content: center;
+        margin-right: 15%;
+    }
+
+    .complete-order {
+        top: 1010px;
+        padding-bottom: 50%;
+    }
+
+}
+
+@media screen and (max-width:620px) {
+    .flex-box {
+        margin-top: 150%;
+        justify-content: center;
+        margin-right: 15%;
+    }
+
+    .complete-order {
+        top: 1010px;
+        padding-bottom: 50%;
+    }
+
+}
+
+@media screen and (max-width:490px) {
+    .flex-box {
+        margin-top: 200%;
+        justify-content: center;
+        margin-right: 15%;
+    }
+
+    .complete-order {
+        top: 1020px;
+        padding-bottom: 60px;
+    }
+
+}
+

@@ -69,13 +69,13 @@ ul, ol {
     font-weight: lighter;
 }
 
-.cta-men button {
+.view-womens a {
     position: absolute;
     top: 150%;
     right: 20%;
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
-    background-color: #fff;
+    background-color: #e7e3e300;
     font-size: 1vw;
     font-weight: bold;
     border-top: 0%;
@@ -89,7 +89,7 @@ ul, ol {
     background-color: transparent;
 }
 
-.cta-women button {
+.cta-women button a {
     position: absolute;
     top: 150%;
     right: 70%;
@@ -133,7 +133,6 @@ ul, ol {
 .explore-container img {
     float: left;
     width: 33.33%;
-    width: 33.33%;
     max-width: 100%;
     height: auto;
     object-fit: cover;
@@ -141,72 +140,13 @@ ul, ol {
     filter: brightness(80%);
 }
 
-.explore-text {
+.hike-text, .bike-text, .ski-text {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  position: absolute;
+  top: 100%;
 }
-
-/*.explore-container a {
-    position: relative;
-    z-index: 2;
-    white-space: nowrap;
-    color: #fff;
-    text-shadow: #000;
-}
-
-.explore-container a:hover {
-    color: #000;
-    font-weight: bold;
-    font-size: 2.2vw;
-}
-
-
-/*.hike-text {
-    display: flex;
-    z-index: 2;
-    margin-right: 20px;
-    left: 10%;
-}
-
-a {
-    color: #fff;
-    font-size: 2vw;
-    text-decoration: none;
-
-}
-
-/*.bike-text {
-    display: flex;
-    position: absolute;
-    top: 110%;
-    z-index: 2;
-    margin-right: 20px;
-    left: 40%;
-}
-*/
-
-
-/*a {
-    color: #fff;
-    font-size: 2vw;
-}
-
-/*.ski-text {
-    display: flex;
-    position: absolute;
-    top: 110%;
-    z-index: 2;
-    margin-right: 20px;
-    left: 75%;
-}*/
-
-
-
-/*a {
-    color: #fff;
-    font-size: 2vw;
-}*/
 
 .premium-class {
     display: flex;
@@ -214,7 +154,28 @@ a {
     position: relative;
 }
 
+.premium-left img {
+  width: 50%;
+}
+
 .premium-left {
+  display: flex;
+  flex: 1; /* Bruk flex: 1; for å ta opp all tilgjengelig plass til venstre */
+  position: relative;
+  max-width: 50%;
+  object-fit: cover;
+}
+
+.premium-right {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1; /* Bruk flex: 1; for å ta opp all tilgjengelig plass til høyre */
+}
+
+
+/*.premium-left {
     display: flex;
     width: 100%;
     position: relative;
@@ -231,7 +192,7 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-}
+}*/
   
 .premium-header h1 {
     font-family:Arial, Helvetica, sans-serif;

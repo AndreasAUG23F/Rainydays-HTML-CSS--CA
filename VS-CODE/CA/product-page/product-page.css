@@ -43,14 +43,6 @@ main {
     gap: 15%;
 }
 
-.rating-icons {
-    /* Stil for ikonene, for eksempel størrelse og mellomrom */
-}
-
-.rating-text {
-    /* Stil for teksten, for eksempel mellomrom til høyre for ikonene */
-}
-
 .color-info {
     display: flex;
     align-items: center;
@@ -118,4 +110,283 @@ main {
 
 .product-info {
     padding-top: 15%;
+}
+
+
+@media screen and (max-width: 1205px){
+    .image-container img {
+        width: 300px;
+    }
+
+
+}
+
+@media screen and (max-width: 1130px){
+    .image-container img {
+        width: 200px;
+    }
+
+    .product-text-container{
+        flex: 1;
+        margin-left: -10%;
+     }
+
+
+
+
+}
+
+@media screen and (max-width: 857px){
+    .image-container img {
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .product-text-container{
+        flex: 1;
+        margin-left: -10%;
+     }
+
+}
+
+@media screen and (max-width: 800px){
+    .image-container img {
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .product-text-container{
+        flex: 1;
+        margin-left: -50%;
+     }
+
+}
+
+@media screen and (max-width: 686px){
+    .image-container img {
+        width: 160px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .product-text-container{
+        flex: 1;
+        margin-left: -60%;
+     }
+
+}
+
+@media screen and (max-width: 627px){
+    .image-container img {
+        width: 160px;
+        display: flex;
+        flex-direction: row;
+    }
+
+     .product-text-container{
+        flex: 1;
+        margin-left: -70%;
+     }
+     
+     .product-name p {
+         font-size: 8px;
+     }
+     
+     .product-header h2 {
+         font-size: 10px;
+     }
+     
+     .rating svg, .rating-text p {
+         font-size: 8px; 
+     }
+     
+     .rating {
+         gap: 3%;
+     }
+     
+     .color-info {
+         display: flex;
+         align-items: center;
+         gap: 5%;
+         font-size: 10px;
+     }
+     
+     .color-label p {
+         font-size: 10px;
+     }
+     
+     .size p {
+         font-size: 10px;
+     }
+
+     .size-buttons {
+        display: flex;
+        gap: 3%;
+        padding-bottom: 5%;
+    }
+
+    .size-buttons button{
+        height: 30px;
+        width: 50px;
+        gap: 60%;
+        font-size: small;
+    
+    }
+    
+    .size-buttons {
+        display: flex;
+        gap: 2%;
+        padding-bottom: 5%;
+    }
+    
+    .size-buttons button:hover,
+    .size-buttons button:active {
+      background-color: black; /* Bakgrunnsfargen blir svart ved sveving og når knappen er trykket på */
+      color: white; /* Tekstfargen blir hvit ved sveving og når knappen er trykket på */
+      transform: scale(1.1); /* Forstørrelse med 10% når musepekeren svever over knappen og når knappen er trykket på */
+      font-size: 16px; /* Endre fontstørrelsen til 16 piksler ved sveving og når knappen er trykket på */
+      transition: transform 0.2s, font-size 0.2s, background-color 0s, color 0s; /* Legg til en jevn overgangseffekt for forstørrelse og fontstørrelse */
+    }
+
+    .button-link {
+        font-size: 8px;
+      }
+
+      .product-info {
+        padding-top: 3%;
+
+    }
+}
+
+@media screen and (max-width: 500px){
+    .image-container img {
+        width: 120px;
+    }
+
+     .product-text-container{
+        flex: 1;
+        margin-left: -250%;
+     }
+     
+     .product-name p {
+         font-size: 4px;
+     }
+     
+     .product-header h2 {
+         font-size: 8px;
+     }
+     
+     .rating svg, .rating-text p {
+         font-size: 8px; 
+     }
+     
+     .rating {
+         gap: 3%;
+     }
+     
+     .color-info {
+         display: flex;
+         align-items: center;
+         gap: 3%;
+         font-size: 6px;
+     }
+     
+     .color-label p {
+         font-size: 8px;
+     }
+     
+     .size p {
+         font-size: 8px;
+     }
+
+     .size-buttons {
+        display: flex;
+        gap: 2%;
+        padding-bottom: 3%;
+    }
+
+    .product-info {
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .image-container img {
+        width: 100px;
+    }
+
+     .product-text-container{
+        flex: 1;
+        margin-left: -26%;
+     }
+
+     .price {
+        font-size: 8px;
+     }
+     
+     .product-name p {
+         font-size: 4px;
+     }
+     
+     .product-header h2 {
+         font-size: 8px;
+     }
+     
+     .rating svg, .rating-text p {
+         font-size: 8px; 
+     }
+     
+     .rating {
+         gap: 3%;
+     }
+     
+     .color-info {
+         display: flex;
+         align-items: center;
+         gap: 3%;
+         font-size: 6px;
+     }
+     
+     .color-label p {
+         font-size: 8px;
+     }
+     
+     .size p {
+         font-size: 8px;
+     }
+
+     .size-buttons {
+        display: flex;
+        gap: 2%;
+        padding-bottom: 3%;
+    }
+
+    .product-info {
+        font-size: 6px;
+    }
+
+    .size-buttons {
+        display: flex;
+        gap: 1%;
+        padding-bottom: 2%;
+    }
+    
+    .size-buttons button:hover,
+    .size-buttons button:active {
+      color: white; /* Tekstfargen blir hvit ved sveving og når knappen er trykket på */
+      transform: scale(1.1); /* Forstørrelse med 10% når musepekeren svever over knappen og når knappen er trykket på */
+      font-size: 10px; /* Endre fontstørrelsen til 16 piksler ved sveving og når knappen er trykket på */
+      transition: transform 0.2s, font-size 0.2s, background-color 0s, color 0s; /* Legg til en jevn overgangseffekt for forstørrelse og fontstørrelse */
+    }
+
+    .button-link {
+        font-size: 8px;
+      }
+
+      .product-info {
+        padding-top: 3%;
+
+    }
 }

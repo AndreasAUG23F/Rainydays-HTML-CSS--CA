@@ -66,3 +66,22 @@
     scroll-behavior: smooth;
 }
   
+@media screen and (max-width:901px){
+  .home-banner {
+    height: 700px !important;
+    width: 100px;
+}
+.header-ul {
+  border-bottom: #000 solid 1px !important;
+}
+
+}
+
+@media screen and (max-width:600px){
+  .home-banner {
+    height: 400px !important;
+}
+.header-ul {
+  border-bottom: #000 solid 0.6px !important;
+}
+}

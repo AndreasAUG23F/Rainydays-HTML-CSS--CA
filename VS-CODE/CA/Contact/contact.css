@@ -1,3 +1,71 @@
 @import url(/header.css);
 @import url(/footer.css);
 @import url(/shop-clean.css);
+@import url(/forms-test.html/forms.css);
+
+
+.image-row-container {
+    display: flex;
+    justify-content: center; 
+    list-style: none;
+    padding: 0;
+}
+
+.image-row-container li {
+    margin: 0 10px; 
+}
+
+.image-row-container img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.text-container {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+h2 {
+    font-size: 3vw;
+    letter-spacing: 10px;
+    color: #000000; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Mørk skyggeeffekt */
+}
+
+.bottom-text {
+    font-size: 1.5vw;
+}
+
+.form {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.contact-info {
+    display: block;
+    float: right;
+    margin-right: 10%;
+    margin-top: -19%;
+}
+
+.contact-info img {
+    width: 450px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-right: 55%;
+}
+
+.submit-button {
+    text-decoration: none;
+    background-color: blue;
+    color: #ffffff;
+    border: #000000 3px solid;
+    padding: 10px;
+    width: 80px;
+    border-radius: 15px;
+    
+}
