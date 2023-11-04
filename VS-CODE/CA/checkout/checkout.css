@@ -1,6 +1,7 @@
 @import url(/header.css);
 @import url(/footer.css);
 @import url(/order-summary.css);
+@import url(/forms-test.html/forms.css);
 
 main {
     display: flex;
@@ -28,3 +29,28 @@ ul li {
     padding-bottom: 30px;
 }
 
+.flex-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-box {
+    height: 100px;
+}
+
+.delivery-buttons button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Fjerner understrekning på lenken */
+    border: 3px black solid;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: transform 0.2s, background-color 0.2s, color 0.2s;
+  }
+  
+  .delivery-buttons svg {
+    height: 20px;
+    width: 50px;
+  }

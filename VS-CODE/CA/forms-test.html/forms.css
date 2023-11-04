@@ -1,6 +1,10 @@
+
+
 .form {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    display: 
+    float: left;
 }
 
 .form * {
@@ -8,18 +12,22 @@
     line-height: 1.5;
 }
 
-.form__title {
+.form-info, .form-payment {
     font-size: 2em;
     font-weight: 600;
 }
 
-.form__item {
+.form-payment {
+    padding-top: 5%;
+}
+
+.form-name, .form-adress, .form-email, .form-phone, .form-cardnumber, .form-month, .form-year, .form-CVV, .form-cardholder{
     display: flex;
     flex-direction: column;
 
 }
 
-.form__item > * {
+.form-name > * {
     align-self: flex-start;
 }
 
@@ -49,6 +57,36 @@
     background-color: #f9f9f9;
     transition: 0.25s, border-color 0.25s, color 0.25s;
 
+}
+
+.form__input-month, .form__input-year, .form__input-CVV {
+        -webkit-appearance: none;
+
+
+    width: 100%;
+    max-width: 425px;
+
+    /*fix for safari/ios date fields*/
+    min-height: calc(0.9em +(0.8em * 2) +0.6em);
+
+    padding: 0.8em;
+    font-size: 0.9em;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: 0.25s, border-color 0.25s, color 0.25s;
+
+    width: 80px;
+}
+
+.form-myc {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
 }
 
 .form__input:focus {

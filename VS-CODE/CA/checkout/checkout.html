@@ -57,92 +57,97 @@
                     </div>
                 </div>
             </section>
-    
-    
-            <section class="checkout-contact">
-                <form action="din_behandlingsfil.php" method="post">
-                    <label for="navn">Name:</label>
-                    <input type="text" id="navn" name="navn" required><br><br>
-                    
-                    <label for="adresse">Adress:</label>
-                    <input type="text" id="adresse" name="adresse" required><br><br>
-                    
-                    <label for="email">E-MAIL:</label>
-                    <input type="email" id="email" name="email" required><br><br>
-                    
-                    <label for="telefon">PHONE:</label>
-                    <input type="tel" id="telefon" name="telefon" required><br><br>
+
+            <form class="form" action="./" method="post">
+                <div class="form-info"></div>
+                <div class="form-name">
+                    <label for="name" class="form__label">Name</label>
+                    <input type="text" class="form__input" name="name" id="names" placeholder="Enter your full name">
+                </div>
+                <div class="form-adress">
+                    <label for="adress" class="form__label">Adress</label>
+                    <input type="text" class="form__input" name="name" id="names" placeholder="Enter your address">
+                </div>
+                <div class="form-email">
+                    <label for="name" class="form__label">E-mail</label>
+                    <input type="text" class="form__input" name="name" id="names" placeholder="Enter your email">
+                </div>
+                <div class="form-phone">
+                    <label for="name" class="form__label">Phone</label>
+                    <input type="text" class="form__input" name="name" id="names" placeholder="Phone">
+                </div>
                 
-                </form>
-            </section>
-    
-    
-            <section class="checkout-payment">
-                <h1>PAYMENT</h1>
-                <form action="/checkout-success/checkout-success.html" method="post">
-                    <label for="cardNumber">Card number:</label>
-                    <input type="text" id="cardNumber" name="cardNumber" required><br><br>
-                    
-                    <label for="month">Month:</label>
-                    <input type="text" id="month" name="month" required><br><br>
-                    
-                    <label for="year">Year:</label>
-                    <input type="text" id="year" name="year" required><br><br>
-                    
-                    <label for="cvv">CVV:</label>
-                    <input type="text" id="cvv" name="cvv" required><br><br>
-                    
-                    <label for="nameOnCard">Name on card:</label>
-                    <input type="text" id="nameOnCard" name="nameOnCard" required><br><br>
-                    
-                    <input type="submit" value="COMPLETE ORDER">
-                </form>
-            </section>
+                <div class="form-payment">PAYMENT</div>
+                <div class="form-cardnumber">
+                    <label for="name" class="form__label">Cardnumber</label>
+                    <input type="text" class="form__input" name="name" id="names" placeholder="Phone">
+                </div>
+                <div class="form-myc">
+                    <div class="form-month">
+                        <label for="name" class="form__label">Month</label>
+                        <input type="text" class="form__input-month" name="name" id="names">
+                    </div>
+                    <div class="form-year">
+                        <label for="name" class="form__label">Year</label>
+                        <input type="text" class="form__input-year" name="name" id="names">
+                    </div>
+                    <div class="form-CVV">
+                        <label for="name" class="form__label">CVV</label>
+                        <input type="text" class="form__input-CVV" name="name" id="names">
+                    </div>
+                </div>
+                <div class="form-cardholder">
+                    <label for="name" class="form__label">Name on card</label>
+                    <input type="text" class="form__input" name="name" id="names" placeholder="Cardholders name">
+                </div>
+            </form>
+        </div>
+
+        <div class="flex-box">
+            <div class="order-summary-container">
+                <div class="summary-header">
+                    <h2>Order summary</h2>
+                </div>
+                <div class="subtotal-left">
+                    <p>Subtotal</p>
+                    <div class="Subtotal-right">
+                        <p>600NOK</p>
+                    </div>
+                </div>
+                <div class="delivery-left">
+                    <p>Delivery/shipping</p>
+                    <div class="delivery-right">
+                        <p>Free</p>
+                    </div>
+                </div>
+                <div class="total-left">
+                    <p>Total</p>
+                    <div class="total-right">
+                        <p>600NOK</p>
+                    </div>
+                </div>
+                <div class="arrival">
+                    <p>Arrives in 1-3 working days</p>
+                </div>
+                <div class="summary-image">
+                    <img src="/images-CA/fjedle-2-scaled.jpg" alt="product picture">
+                    <div class="summary-bottom-right-top">
+                        <p>Mens Fjedle jacket</p>
+                        <div class="quantity">
+                            <p>QTY:1</p>
+                        </div>
+                        <div class="size">
+                            <p>Size:L</p>
+                        </div>
+                        <div class="Subtotal-bottom">
+                            <p>Total: 600NOK</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
-        <div class="order-summary-container">
-            <div class="summary-header">
-                <h2>Order summary</h2>
-            </div>
-            <div class="subtotal-left">
-                <p>Subtotal</p>
-                <div class="Subtotal-right">
-                    <p>600NOK</p>
-                </div>
-            </div>
-            <div class="delivery-left">
-                <p>Delivery/shipping</p>
-                <div class="delivery-right">
-                    <p>Free</p>
-                </div>
-            </div>
-            <div class="total-left">
-                <p>Total</p>
-                <div class="total-right">
-                    <p>600NOK</p>
-                </div>
-            </div>
-            <div class="arrival">
-                <p>Arrives in 1-3 working days</p>
-            </div>
-            <div class="summary-image">
-                <img src="/images-CA/fjedle-2-scaled.jpg" alt="product picture">
-                <div class="summary-bottom-right-top">
-                    <p>Mens Fjedle jacket</p>
-                    <div class="quantity">
-                        <p>QTY:1</p>
-                    </div>
-                    <div class="size">
-                        <p>Size:L</p>
-                    </div>
-                    <div class="Subtotal-bottom">
-                        <p>Total: 600NOK</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
 
     </main>
 </body>

@@ -1,5 +1,6 @@
 @import url(/header.css);
 @import url(/footer.css);
+@import url(/forms-test.html/forms.css);
 
 /*flex-wrap gir deg kontroll over hvordan elementene dine skal tilpasse seg
  beholderen når det er for lite plass. 
@@ -135,6 +136,11 @@ font-weight: bold;
 
 .contact-us p {
     margin-left: 1%;
+}
+
+.checkout-success-bottom-image img {
+    width: 100%;
+    height: auto;
 }
 /*.order-summary-container {
     display: block;

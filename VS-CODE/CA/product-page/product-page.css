@@ -1,3 +1,121 @@
 @import url(/header.css);
 @import url(/footer.css);
 @import url(/shop-clean.css);
+
+ul li {
+    list-style: none;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.image-container {
+    flex: 1;
+}
+
+
+
+.product-text-container{
+   flex: 1;
+   margin-left: -20%;
+}
+
+.product-name {
+    font-weight: bold;
+    text-shadow: rgb(177, 174, 174) 3px 3px 3px;
+}
+
+.product-header h2 {
+    text-shadow: rgb(177, 174, 174) 3px 3px 3px;
+}
+
+.rating svg, .rating-text p {
+    fill: black;    
+}
+
+.rating {
+    display: flex;
+    align-items: center; 
+    gap: 15%;
+}
+
+.rating-icons {
+    /* Stil for ikonene, for eksempel størrelse og mellomrom */
+}
+
+.rating-text {
+    /* Stil for teksten, for eksempel mellomrom til høyre for ikonene */
+}
+
+.color-info {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.color-label {
+    font-weight: bolder;
+}
+
+.size p {
+    font-weight: bold;
+}
+
+.size-buttons button{
+    height: 40px;
+    width: 60px;
+    gap: 60%;
+    font-size: large;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    border-color: white;
+    color: black;
+    background-color: #E8E8E8;
+
+}
+
+.size-buttons {
+    display: flex;
+    gap: 3%;
+    padding-bottom: 15%;
+}
+
+.size-buttons button:hover,
+.size-buttons button:active {
+  background-color: black; /* Bakgrunnsfargen blir svart ved sveving og når knappen er trykket på */
+  color: white; /* Tekstfargen blir hvit ved sveving og når knappen er trykket på */
+  transform: scale(1.1); /* Forstørrelse med 10% når musepekeren svever over knappen og når knappen er trykket på */
+  font-size: 16px; /* Endre fontstørrelsen til 16 piksler ved sveving og når knappen er trykket på */
+  transition: transform 0.2s, font-size 0.2s, background-color 0s, color 0s; /* Legg til en jevn overgangseffekt for forstørrelse og fontstørrelse */
+}
+
+
+
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Fjerner understrekning på lenken */
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: transform 0.2s, background-color 0.2s, color 0.2s;
+  }
+  
+  .button-link:hover,
+  .button-link:active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+  }
+  
+
+.product-info {
+    padding-top: 15%;
+}

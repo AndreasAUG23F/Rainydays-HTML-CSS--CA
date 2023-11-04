@@ -1,4 +1,4 @@
-.shop-filter {
+/*.shop-filter {
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     color: black;
@@ -20,9 +20,39 @@
     white-space: nowrap; 
     text-overflow: inherit; 
     background-color: rgba(124, 129, 143, 0.12)
-    
-  }
-  
+}*/
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shop-filter {
+    display: flex;
+    list-style: none;
+    gap: 20%;
+    color: black;
+    margin-right: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shop-filter a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.filter-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(124, 129, 143, 0.12);
+    margin-top: 100px;
+}
+
  .header-a:hover {
     color: #000;
     font-weight: bold;
@@ -50,7 +80,7 @@
 .product-container {
     display: flex;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: 10%;
     column-gap: 2%;
     margin-bottom: 15%;
     flex-wrap: wrap;
