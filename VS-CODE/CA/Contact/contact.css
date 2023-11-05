@@ -29,29 +29,48 @@ h2 {
     font-size: 3vw;
     letter-spacing: 10px;
     color: #000000; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Mørk skyggeeffekt */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .bottom-text {
     font-size: 1.5vw;
 }
 
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .form {
-    margin-left: 20%;
-    margin-top: 5%;
+    flex: 1;
+    padding: 20px;
 }
 
 .contact-info {
-    text-align: top;
-    margin-left: 70%;
-    margin-bottom: 70%;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 170px;
+    padding-top: -200px;
+}
+
+.contact-info img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.contact-info {
+    justify-content: center;
+
 
 }
 
 .contact-info img {
-    max-width: 80%;
+    width: 500px;
     height: auto;
-    display: block;
     margin: 0;
 }
 

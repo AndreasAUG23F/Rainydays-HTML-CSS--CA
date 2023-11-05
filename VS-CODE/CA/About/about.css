@@ -228,19 +228,19 @@ p {
  }
 
  .continue-shopping {
-    display: inline-block; /* Endre fra "block" til "inline-block" for å unngå blokkerende bakgrunn */
-    text-align: center; /* Sentrer innhold horisontalt */
-    background: none; /* Nullstill bakgrunnen */
-    padding-bottom: 25px; /* Nullstill paddingen */
-    border: none; /* Nullstill kanten */
+    display: inline-block; 
+    text-align: center; 
+    background: none; 
+    padding-bottom: 25px; 
+    border: none; 
 }
 
 .continue-shopping a {
-    display: inline-block; /* La lenken ha inline-blokkeringsvisning */
+    display: inline-block; 
     color: #fff;
     text-decoration: none;
     background-color: blue;
-    border: #000 solid 3px; /* Endre fra "#000000" til "#000" for fargen */
+    border: #000 solid 3px; 
     width: 300px;
     font-size: 2vw;
     border-radius: 25px;
