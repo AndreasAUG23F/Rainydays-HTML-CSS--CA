@@ -35,13 +35,13 @@ body {
     justify-content: center;
     position: absolute;
     margin-top: 10%;
-    gap: 50%;
+    gap: 53%;
     justify-content: space-between;
     white-space: nowrap;
     
 }
 
-h2 {
+h1 {
     font-size: 4vw;
     color: #fff;
     width: auto;
@@ -70,15 +70,13 @@ h2 {
     margin-left: 4%;
 }
 
-h3 {
+h2 {
     font-size: 3vw;
-    text-shadow: 2px 2px 5px #000
 }
 
 .welcome-bottom p {
     font-size: 2vw;
     letter-spacing: 2px;
-    text-shadow: 1px 1px 3px #000
 }
 
 .image-row-container {
@@ -139,10 +137,9 @@ p {
     margin-left: 5%;
 }
 
-.credo-header > h1 {
+.credo-header > h3 {
     border-top: #0000 solid 5px;
     font-size: 4vw;
-    text-shadow: 2px 2px 5px #000
 }
 
 .credo-text {
@@ -164,11 +161,13 @@ p {
     left: 50px;
 }
 
+
 .staff-header  {
     position: relative;
     border-top: rgba(204, 204, 204, 1) solid 3px ;
     font-size: 4vw;
     text-shadow: 1px 1px 3px #000;
+    color: #000;
 }
 
 .staff-container {
@@ -192,14 +191,14 @@ p {
 
 .staff-name {
     position: absolute;
-    top: -10%;
-    left: 20%;
+    top: -15%;
+    left: 23%;
+    
 }
 
-.staff-name h2 {
+.staff-name h5 {
     color: #000;
     font-size: 4vw;
-    text-shadow: #000 solid 1px 1px 1px;
 }
 
 .staff-title {
@@ -208,7 +207,7 @@ p {
     left: 24%;
 }
 
-.staff-title h3 {
+.staff-title h6 {
     font-size: 1.6vw;
     color: lightslategray;
     text-shadow: none;
@@ -218,7 +217,7 @@ p {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-left: -15%;
+    margin-left: -10%;
     padding-bottom: 20px;
 }
  .staff-info p {

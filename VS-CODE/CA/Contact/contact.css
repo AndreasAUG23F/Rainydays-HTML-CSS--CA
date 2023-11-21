@@ -38,47 +38,47 @@ h2 {
 
 .main-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+
+    /*flex-wrap: wrap;
+    justify-content: space-between;*/
 }
 
 .form {
-    flex: 1;
+    /*flex: 1;*/
     padding: 20px;
+    align-self: center;
+}
+
+.form__input {
+    width: 400px;
 }
 
 .contact-info {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    /*justify-content: flex-start;*/
     align-items: center;
-    padding-right: 170px;
-    padding-top: -200px;
+    /*padding-right: 170px;*/
+    /*padding-top: -200px;*/
 }
 
 .contact-info img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
-    margin: 0;
+    margin-bottom: 5%;
+    margin-top: -25%;
+    margin-left: -10%;
 }
 
-.contact-info {
-    justify-content: center;
 
 
-}
-
-.contact-info img {
-    width: 500px;
-    height: auto;
-    margin: 0;
-}
 
 .submit {
     display: flex;
     justify-content: center;
     margin-top: 3%;
-    margin-right: 55%;
+    margin-right: 105%;
 }
 
 .submit-button {
@@ -87,8 +87,9 @@ h2 {
     color: #ffffff;
     border: #000000 3px solid;
     padding: 10px;
-    width: 80px;
+    width: 100px;
     border-radius: 15px;
+    margin-right: 60%;
     
 }
 
